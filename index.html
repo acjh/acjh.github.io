@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Aaron</title>
+	<link rel="stylesheet" href="../css/themes/default/jquery.mobile-1.4.5.min.css">
+	<link rel="stylesheet" href="../_assets/css/jqm-demos.css">
+	<link rel="shortcut icon" href="../favicon.ico">
+	<script src="../js/jquery.js"></script>
+	<script src="../_assets/js/index.js"></script>
+	<script src="../js/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+
+<div data-role="page">
+
+	<div data-role="panel" id="mypanel">
+	    <!-- panel content goes here -->
+	</div><!-- /panel -->
+
+	<div data-role="header" data-position="fixed" data-theme="a">
+	<a href="../toolbar/" data-rel="back" class="ui-btn ui-btn-left ui-alt-icon ui-nodisc-icon ui-corner-all ui-btn-icon-notext ui-icon-carat-l">Back</a>
+		<h1>Info</h1>
+		<div data-role="navbar">
+		<ul>
+			<li><a href="index.html" data-prefetch="true" data-transition="fade">Info</a></li>
+			<li><a href="page-b.html" data-prefetch="true" data-transition="flip">Friends</a></li>
+			<li><a href="page-c.html" data-prefetch="true" data-transition="turn">Albums</a></li>
+			<li><a href="page-d.html" data-prefetch="true" data-transition="slide">Emails</a></li>
+		</ul>
+		</div><!-- /navbar -->
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<div data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+		    <h4>Heading</h4>
+		    <ul data-role="listview" data-inset="false">
+		        <li>Read-only list item 1</li>
+		        <li>Read-only list item 2</li>
+		        <li>Read-only list item 3</li>
+		    </ul>
+    </div>
+	</div><!-- /content -->
+
+	<div data-role="footer">
+		<h4>Footer content</h4>
+	</div><!-- /footer -->
+
+</div><!-- /page -->
+
+</body>
+</html>
